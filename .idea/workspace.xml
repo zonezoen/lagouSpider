@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e25686a-b185-469e-8a41-8eef6285495b" name="Default" comment="" />
+    <list default="true" id="5e25686a-b185-469e-8a41-8eef6285495b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/main/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analycis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kh.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiderSelenium.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,26 +31,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="5" />
-          <entry key="py" value="69" />
+          <entry key="md" value="38" />
+          <entry key="py" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5" />
-          <entry key="Python" value="69" />
+          <entry key="Markdown" value="38" />
+          <entry key="Python" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="md" value="1" />
+          <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="1" />
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -50,37 +60,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="61" />
-              <folding>
-                <element signature="e#7#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analycis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#13#32#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="4035">
+                <caret line="269" selection-start-line="269" selection-end-line="269" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3271">
-                <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/main/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+              <folding>
+                <element signature="e#7#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,18 +117,6 @@
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiderSelenium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +167,7 @@
         <option value="$PROJECT_DIR$/spider.py" />
         <option value="$PROJECT_DIR$/analycis.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main/spider.py" />
       </list>
     </option>
   </component>
@@ -207,6 +194,11 @@
               <item name="lagouSpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="lagouSpider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lagouSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,6 +218,7 @@
       <recent name="$PROJECT_DIR$/result" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -289,8 +282,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20979765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20979765" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -303,7 +297,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32871288" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="SciView" visible="true" weight="0.10543131" />
@@ -319,21 +313,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analycis.py</url>
-          <line>114</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analycis.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Py.csv" />
@@ -421,10 +400,20 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3271">
-            <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <first_editor relative-caret-position="4035">
+            <caret line="269" selection-start-line="269" selection-end-line="269" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+          <folding>
+            <element signature="e#7#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
