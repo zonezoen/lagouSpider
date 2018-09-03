@@ -29,65 +29,111 @@
 </script>
 </head>
 <body>
-    <div id="5f716497c4884b10b740c455c65ec0e9" style="width:1200px;height:600px;"></div>
+    <div id="d6ed1a4956ef49609a74c2caf552932e" style="width:1200px;height:600px;"></div>
     <script type="text/javascript">
 
-var myChart_5f716497c4884b10b740c455c65ec0e9 = echarts.init(document.getElementById('5f716497c4884b10b740c455c65ec0e9'), 'light', {renderer: 'canvas'});
+var myChart_d6ed1a4956ef49609a74c2caf552932e = echarts.init(document.getElementById('d6ed1a4956ef49609a74c2caf552932e'), 'light', {renderer: 'canvas'});
 
-var option_5f716497c4884b10b740c455c65ec0e9 = {
-    "legend": [
+var option_d6ed1a4956ef49609a74c2caf552932e = {
+    "title": [
         {
+            "text": "                       web\u524d\u7aef\u5de5\u4f5c\u5b66\u5386\u8981\u6c42",
+            "left": "auto",
+            "top": "auto",
             "textStyle": {
-                "fontSize": 12
+                "fontSize": 18
             },
-            "data": [
-                "\u6df1\u5733"
-            ],
-            "orient": "horizontal",
-            "top": "top",
-            "left": "center",
-            "show": true,
-            "selectedMode": "multiple"
+            "subtextStyle": {
+                "fontSize": 12
+            }
         }
     ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "\u4e0b\u8f7d\u56fe\u7247"
+            },
+            "restore": {
+                "show": true
+            },
+            "dataView": {
+                "show": true
+            }
+        }
+    },
+    "series_id": 24544,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
     "series": [
         {
+            "type": "treemap",
             "name": "\u6df1\u5733",
             "data": [
                 {
-                    "name": "\u672c\u79d1  280",
-                    "value": 280
+                    "value": 280,
+                    "name": "\u672c\u79d1  280"
                 },
                 {
-                    "name": "\u5927\u4e13  140",
-                    "value": 140
+                    "value": 140,
+                    "name": "\u5927\u4e13  140"
                 },
                 {
-                    "name": "\u4e0d\u9650  15",
-                    "value": 15
+                    "value": 15,
+                    "name": "\u4e0d\u9650  15"
                 }
             ],
-            "drillDownIcon": "\u25b6",
-            "seriesId": 463399,
-            "visibleMin": 10,
-            "type": "treemap",
             "label": {
+                "normal": {
+                    "show": true,
+                    "position": "inside",
+                    "textStyle": {
+                        "fontSize": 19
+                    }
+                },
                 "emphasis": {
                     "show": true,
                     "textStyle": {
                         "fontSize": 12
                     }
-                },
-                "normal": {
-                    "position": "inside",
-                    "show": true,
-                    "textStyle": {
-                        "fontSize": 19
-                    }
                 }
+            },
+            "drillDownIcon": "\u25b6",
+            "visibleMin": 10,
+            "seriesId": 24544
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6df1\u5733"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal",
+            "textStyle": {
+                "fontSize": 12
             }
         }
     ],
+    "animation": true,
     "color": [
         "#c23531",
         "#2f4554",
@@ -114,55 +160,9 @@ var option_5f716497c4884b10b740c455c65ec0e9 = {
         "#6950a1",
         "#918597",
         "#f6f5ec"
-    ],
-    "animation": true,
-    "series_id": 463399,
-    "title": [
-        {
-            "top": "auto",
-            "subtextStyle": {
-                "fontSize": 12
-            },
-            "text": "                       web\u524d\u7aef\u5de5\u4f5c\u5e74\u9650\u8981\u6c42",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "left": "auto"
-        }
-    ],
-    "tooltip": {
-        "axisPointer": {
-            "type": "line"
-        },
-        "borderWidth": 0,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "triggerOn": "mousemove|click",
-        "borderColor": "#333",
-        "trigger": "item"
-    },
-    "toolbox": {
-        "top": "center",
-        "left": "95%",
-        "show": true,
-        "orient": "vertical",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "\u4e0b\u8f7d\u56fe\u7247"
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true
-            }
-        }
-    }
+    ]
 };
-myChart_5f716497c4884b10b740c455c65ec0e9.setOption(option_5f716497c4884b10b740c455c65ec0e9);
+myChart_d6ed1a4956ef49609a74c2caf552932e.setOption(option_d6ed1a4956ef49609a74c2caf552932e);
 
 </script>
 </body>

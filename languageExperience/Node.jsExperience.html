@@ -29,65 +29,111 @@
 </script>
 </head>
 <body>
-    <div id="9f177605979044a1b2601e1848e76a68" style="width:1200px;height:600px;"></div>
+    <div id="efba5bd27e7149a39e0f2895ac3d9062" style="width:1200px;height:600px;"></div>
     <script type="text/javascript">
 
-var myChart_9f177605979044a1b2601e1848e76a68 = echarts.init(document.getElementById('9f177605979044a1b2601e1848e76a68'), 'light', {renderer: 'canvas'});
+var myChart_efba5bd27e7149a39e0f2895ac3d9062 = echarts.init(document.getElementById('efba5bd27e7149a39e0f2895ac3d9062'), 'light', {renderer: 'canvas'});
 
-var option_9f177605979044a1b2601e1848e76a68 = {
-    "legend": [
+var option_efba5bd27e7149a39e0f2895ac3d9062 = {
+    "title": [
         {
+            "text": "                       Node.js\u5de5\u4f5c\u5b66\u5386\u8981\u6c42",
+            "left": "auto",
+            "top": "auto",
             "textStyle": {
-                "fontSize": 12
+                "fontSize": 18
             },
-            "data": [
-                "\u6df1\u5733"
-            ],
-            "orient": "horizontal",
-            "top": "top",
-            "left": "center",
-            "show": true,
-            "selectedMode": "multiple"
+            "subtextStyle": {
+                "fontSize": 12
+            }
         }
     ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "\u4e0b\u8f7d\u56fe\u7247"
+            },
+            "restore": {
+                "show": true
+            },
+            "dataView": {
+                "show": true
+            }
+        }
+    },
+    "series_id": 1684946,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
     "series": [
         {
+            "type": "treemap",
             "name": "\u6df1\u5733",
             "data": [
                 {
-                    "name": "\u5927\u4e13  11",
-                    "value": 11
+                    "value": 11,
+                    "name": "\u5927\u4e13  11"
                 },
                 {
-                    "name": "\u4e0d\u9650  3",
-                    "value": 3
+                    "value": 3,
+                    "name": "\u4e0d\u9650  3"
                 },
                 {
-                    "name": "\u672c\u79d1  32",
-                    "value": 32
+                    "value": 32,
+                    "name": "\u672c\u79d1  32"
                 }
             ],
-            "drillDownIcon": "\u25b6",
-            "seriesId": 8269433,
-            "visibleMin": 10,
-            "type": "treemap",
             "label": {
+                "normal": {
+                    "show": true,
+                    "position": "inside",
+                    "textStyle": {
+                        "fontSize": 19
+                    }
+                },
                 "emphasis": {
                     "show": true,
                     "textStyle": {
                         "fontSize": 12
                     }
-                },
-                "normal": {
-                    "position": "inside",
-                    "show": true,
-                    "textStyle": {
-                        "fontSize": 19
-                    }
                 }
+            },
+            "drillDownIcon": "\u25b6",
+            "visibleMin": 10,
+            "seriesId": 1684946
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6df1\u5733"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal",
+            "textStyle": {
+                "fontSize": 12
             }
         }
     ],
+    "animation": true,
     "color": [
         "#c23531",
         "#2f4554",
@@ -114,55 +160,9 @@ var option_9f177605979044a1b2601e1848e76a68 = {
         "#6950a1",
         "#918597",
         "#f6f5ec"
-    ],
-    "animation": true,
-    "series_id": 8269433,
-    "title": [
-        {
-            "top": "auto",
-            "subtextStyle": {
-                "fontSize": 12
-            },
-            "text": "                       Node.js\u5de5\u4f5c\u5e74\u9650\u8981\u6c42",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "left": "auto"
-        }
-    ],
-    "tooltip": {
-        "axisPointer": {
-            "type": "line"
-        },
-        "borderWidth": 0,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "triggerOn": "mousemove|click",
-        "borderColor": "#333",
-        "trigger": "item"
-    },
-    "toolbox": {
-        "top": "center",
-        "left": "95%",
-        "show": true,
-        "orient": "vertical",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "\u4e0b\u8f7d\u56fe\u7247"
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true
-            }
-        }
-    }
+    ]
 };
-myChart_9f177605979044a1b2601e1848e76a68.setOption(option_9f177605979044a1b2601e1848e76a68);
+myChart_efba5bd27e7149a39e0f2895ac3d9062.setOption(option_efba5bd27e7149a39e0f2895ac3d9062);
 
 </script>
 </body>

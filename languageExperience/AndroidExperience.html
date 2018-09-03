@@ -29,69 +29,115 @@
 </script>
 </head>
 <body>
-    <div id="664cb6dc37e04b43baeabacbecebc6fa" style="width:1200px;height:600px;"></div>
+    <div id="f4d284ec0d1940d4841a22f4cc636106" style="width:1200px;height:600px;"></div>
     <script type="text/javascript">
 
-var myChart_664cb6dc37e04b43baeabacbecebc6fa = echarts.init(document.getElementById('664cb6dc37e04b43baeabacbecebc6fa'), 'light', {renderer: 'canvas'});
+var myChart_f4d284ec0d1940d4841a22f4cc636106 = echarts.init(document.getElementById('f4d284ec0d1940d4841a22f4cc636106'), 'light', {renderer: 'canvas'});
 
-var option_664cb6dc37e04b43baeabacbecebc6fa = {
-    "legend": [
+var option_f4d284ec0d1940d4841a22f4cc636106 = {
+    "title": [
         {
+            "text": "                       Android\u5de5\u4f5c\u5b66\u5386\u8981\u6c42",
+            "left": "auto",
+            "top": "auto",
             "textStyle": {
-                "fontSize": 12
+                "fontSize": 18
             },
-            "data": [
-                "\u6df1\u5733"
-            ],
-            "orient": "horizontal",
-            "top": "top",
-            "left": "center",
-            "show": true,
-            "selectedMode": "multiple"
+            "subtextStyle": {
+                "fontSize": 12
+            }
         }
     ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "\u4e0b\u8f7d\u56fe\u7247"
+            },
+            "restore": {
+                "show": true
+            },
+            "dataView": {
+                "show": true
+            }
+        }
+    },
+    "series_id": 4612660,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
     "series": [
         {
+            "type": "treemap",
             "name": "\u6df1\u5733",
             "data": [
                 {
-                    "name": "\u535a\u58eb  1",
-                    "value": 1
+                    "value": 1,
+                    "name": "\u535a\u58eb  1"
                 },
                 {
-                    "name": "\u4e0d\u9650  21",
-                    "value": 21
+                    "value": 21,
+                    "name": "\u4e0d\u9650  21"
                 },
                 {
-                    "name": "\u5927\u4e13  123",
-                    "value": 123
+                    "value": 123,
+                    "name": "\u5927\u4e13  123"
                 },
                 {
-                    "name": "\u672c\u79d1  288",
-                    "value": 288
+                    "value": 288,
+                    "name": "\u672c\u79d1  288"
                 }
             ],
-            "drillDownIcon": "\u25b6",
-            "seriesId": 3000141,
-            "visibleMin": 10,
-            "type": "treemap",
             "label": {
+                "normal": {
+                    "show": true,
+                    "position": "inside",
+                    "textStyle": {
+                        "fontSize": 19
+                    }
+                },
                 "emphasis": {
                     "show": true,
                     "textStyle": {
                         "fontSize": 12
                     }
-                },
-                "normal": {
-                    "position": "inside",
-                    "show": true,
-                    "textStyle": {
-                        "fontSize": 19
-                    }
                 }
+            },
+            "drillDownIcon": "\u25b6",
+            "visibleMin": 10,
+            "seriesId": 4612660
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6df1\u5733"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal",
+            "textStyle": {
+                "fontSize": 12
             }
         }
     ],
+    "animation": true,
     "color": [
         "#c23531",
         "#2f4554",
@@ -118,55 +164,9 @@ var option_664cb6dc37e04b43baeabacbecebc6fa = {
         "#6950a1",
         "#918597",
         "#f6f5ec"
-    ],
-    "animation": true,
-    "series_id": 3000141,
-    "title": [
-        {
-            "top": "auto",
-            "subtextStyle": {
-                "fontSize": 12
-            },
-            "text": "                       Android\u5de5\u4f5c\u5e74\u9650\u8981\u6c42",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "left": "auto"
-        }
-    ],
-    "tooltip": {
-        "axisPointer": {
-            "type": "line"
-        },
-        "borderWidth": 0,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "triggerOn": "mousemove|click",
-        "borderColor": "#333",
-        "trigger": "item"
-    },
-    "toolbox": {
-        "top": "center",
-        "left": "95%",
-        "show": true,
-        "orient": "vertical",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "\u4e0b\u8f7d\u56fe\u7247"
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true
-            }
-        }
-    }
+    ]
 };
-myChart_664cb6dc37e04b43baeabacbecebc6fa.setOption(option_664cb6dc37e04b43baeabacbecebc6fa);
+myChart_f4d284ec0d1940d4841a22f4cc636106.setOption(option_f4d284ec0d1940d4841a22f4cc636106);
 
 </script>
 </body>

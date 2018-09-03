@@ -29,34 +29,60 @@
 </script>
 </head>
 <body>
-    <div id="e8f8da1f6719455080a73b25903a504f" style="width:800px;height:400px;"></div>
+    <div id="7d500a9cb8574d4ba73c02a3eb49de99" style="width:800px;height:400px;"></div>
     <script type="text/javascript">
 
-var myChart_e8f8da1f6719455080a73b25903a504f = echarts.init(document.getElementById('e8f8da1f6719455080a73b25903a504f'), 'light', {renderer: 'canvas'});
+var myChart_7d500a9cb8574d4ba73c02a3eb49de99 = echarts.init(document.getElementById('7d500a9cb8574d4ba73c02a3eb49de99'), 'light', {renderer: 'canvas'});
 
-var option_e8f8da1f6719455080a73b25903a504f = {
-    "legend": [
+var option_7d500a9cb8574d4ba73c02a3eb49de99 = {
+    "title": [
         {
+            "text": "                       iOS \u5de5\u4f5c\u5e74\u9650",
+            "left": "auto",
+            "top": "auto",
             "textStyle": {
-                "fontSize": 12
+                "fontSize": 18
             },
-            "data": [
-                "\u7ecf\u9a8c\u5e94\u5c4a\u6bd5\u4e1a\u751f",
-                "\u7ecf\u9a8c3-5\u5e74",
-                "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
-                "\u7ecf\u9a8c5-10\u5e74",
-                "\u7ecf\u9a8c1-3\u5e74",
-                "\u7ecf\u9a8c\u4e0d\u9650"
-            ],
-            "orient": "vertical",
-            "top": "top",
-            "left": "left",
-            "show": true,
-            "selectedMode": "multiple"
+            "subtextStyle": {
+                "fontSize": 12
+            }
         }
     ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "\u4e0b\u8f7d\u56fe\u7247"
+            },
+            "restore": {
+                "show": true
+            },
+            "dataView": {
+                "show": true
+            }
+        }
+    },
+    "series_id": 8226586,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
     "series": [
         {
+            "type": "pie",
             "data": [
                 {
                     "name": "\u7ecf\u9a8c\u5e94\u5c4a\u6bd5\u4e1a\u751f",
@@ -83,35 +109,55 @@ var option_e8f8da1f6719455080a73b25903a504f = {
                     "value": 39
                 }
             ],
-            "center": [
-                "50%",
-                "50%"
-            ],
-            "seriesId": 8911174,
             "radius": [
                 "40%",
                 "75%"
             ],
-            "type": "pie",
+            "center": [
+                "50%",
+                "50%"
+            ],
             "label": {
+                "normal": {
+                    "show": true,
+                    "position": "outside",
+                    "textStyle": {
+                        "fontSize": 12
+                    },
+                    "formatter": "{b}: {d}%"
+                },
                 "emphasis": {
                     "show": true,
-                    "formatter": "{b}: {d}%",
                     "textStyle": {
                         "fontSize": 12
-                    }
-                },
-                "normal": {
-                    "position": "outside",
-                    "show": true,
-                    "formatter": "{b}: {d}%",
-                    "textStyle": {
-                        "fontSize": 12
-                    }
+                    },
+                    "formatter": "{b}: {d}%"
                 }
+            },
+            "seriesId": 8226586
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7ecf\u9a8c\u5e94\u5c4a\u6bd5\u4e1a\u751f",
+                "\u7ecf\u9a8c3-5\u5e74",
+                "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
+                "\u7ecf\u9a8c5-10\u5e74",
+                "\u7ecf\u9a8c1-3\u5e74",
+                "\u7ecf\u9a8c\u4e0d\u9650"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "left",
+            "top": "top",
+            "orient": "vertical",
+            "textStyle": {
+                "fontSize": 12
             }
         }
     ],
+    "animation": true,
     "color": [
         "#c23531",
         "#2f4554",
@@ -138,55 +184,9 @@ var option_e8f8da1f6719455080a73b25903a504f = {
         "#6950a1",
         "#918597",
         "#f6f5ec"
-    ],
-    "animation": true,
-    "series_id": 8911174,
-    "title": [
-        {
-            "top": "auto",
-            "subtextStyle": {
-                "fontSize": 12
-            },
-            "text": "                       iOS \u5de5\u4f5c\u5e74\u9650",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "left": "auto"
-        }
-    ],
-    "tooltip": {
-        "axisPointer": {
-            "type": "line"
-        },
-        "borderWidth": 0,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "triggerOn": "mousemove|click",
-        "borderColor": "#333",
-        "trigger": "item"
-    },
-    "toolbox": {
-        "top": "center",
-        "left": "95%",
-        "show": true,
-        "orient": "vertical",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "\u4e0b\u8f7d\u56fe\u7247"
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true
-            }
-        }
-    }
+    ]
 };
-myChart_e8f8da1f6719455080a73b25903a504f.setOption(option_e8f8da1f6719455080a73b25903a504f);
+myChart_7d500a9cb8574d4ba73c02a3eb49de99.setOption(option_7d500a9cb8574d4ba73c02a3eb49de99);
 
 </script>
 </body>

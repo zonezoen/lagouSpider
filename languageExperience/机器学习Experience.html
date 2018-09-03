@@ -29,73 +29,119 @@
 </script>
 </head>
 <body>
-    <div id="75820ec56bfb4111a8a1d12c5982172b" style="width:1200px;height:600px;"></div>
+    <div id="f11178c2fcf14d368da2298bb11b9325" style="width:1200px;height:600px;"></div>
     <script type="text/javascript">
 
-var myChart_75820ec56bfb4111a8a1d12c5982172b = echarts.init(document.getElementById('75820ec56bfb4111a8a1d12c5982172b'), 'light', {renderer: 'canvas'});
+var myChart_f11178c2fcf14d368da2298bb11b9325 = echarts.init(document.getElementById('f11178c2fcf14d368da2298bb11b9325'), 'light', {renderer: 'canvas'});
 
-var option_75820ec56bfb4111a8a1d12c5982172b = {
-    "legend": [
+var option_f11178c2fcf14d368da2298bb11b9325 = {
+    "title": [
         {
+            "text": "                       \u673a\u5668\u5b66\u4e60\u5de5\u4f5c\u5b66\u5386\u8981\u6c42",
+            "left": "auto",
+            "top": "auto",
             "textStyle": {
-                "fontSize": 12
+                "fontSize": 18
             },
-            "data": [
-                "\u6df1\u5733"
-            ],
-            "orient": "horizontal",
-            "top": "top",
-            "left": "center",
-            "show": true,
-            "selectedMode": "multiple"
+            "subtextStyle": {
+                "fontSize": 12
+            }
         }
     ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "\u4e0b\u8f7d\u56fe\u7247"
+            },
+            "restore": {
+                "show": true
+            },
+            "dataView": {
+                "show": true
+            }
+        }
+    },
+    "series_id": 7320010,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
     "series": [
         {
+            "type": "treemap",
             "name": "\u6df1\u5733",
             "data": [
                 {
-                    "name": "\u672c\u79d1  47",
-                    "value": 47
+                    "value": 47,
+                    "name": "\u672c\u79d1  47"
                 },
                 {
-                    "name": "\u7855\u58eb  37",
-                    "value": 37
+                    "value": 37,
+                    "name": "\u7855\u58eb  37"
                 },
                 {
-                    "name": "\u4e0d\u9650  2",
-                    "value": 2
+                    "value": 2,
+                    "name": "\u4e0d\u9650  2"
                 },
                 {
-                    "name": "\u535a\u58eb  2",
-                    "value": 2
+                    "value": 2,
+                    "name": "\u535a\u58eb  2"
                 },
                 {
-                    "name": "\u5927\u4e13  2",
-                    "value": 2
+                    "value": 2,
+                    "name": "\u5927\u4e13  2"
                 }
             ],
-            "drillDownIcon": "\u25b6",
-            "seriesId": 7036500,
-            "visibleMin": 10,
-            "type": "treemap",
             "label": {
+                "normal": {
+                    "show": true,
+                    "position": "inside",
+                    "textStyle": {
+                        "fontSize": 19
+                    }
+                },
                 "emphasis": {
                     "show": true,
                     "textStyle": {
                         "fontSize": 12
                     }
-                },
-                "normal": {
-                    "position": "inside",
-                    "show": true,
-                    "textStyle": {
-                        "fontSize": 19
-                    }
                 }
+            },
+            "drillDownIcon": "\u25b6",
+            "visibleMin": 10,
+            "seriesId": 7320010
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6df1\u5733"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal",
+            "textStyle": {
+                "fontSize": 12
             }
         }
     ],
+    "animation": true,
     "color": [
         "#c23531",
         "#2f4554",
@@ -122,55 +168,9 @@ var option_75820ec56bfb4111a8a1d12c5982172b = {
         "#6950a1",
         "#918597",
         "#f6f5ec"
-    ],
-    "animation": true,
-    "series_id": 7036500,
-    "title": [
-        {
-            "top": "auto",
-            "subtextStyle": {
-                "fontSize": 12
-            },
-            "text": "                       \u673a\u5668\u5b66\u4e60\u5de5\u4f5c\u5e74\u9650\u8981\u6c42",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "left": "auto"
-        }
-    ],
-    "tooltip": {
-        "axisPointer": {
-            "type": "line"
-        },
-        "borderWidth": 0,
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "triggerOn": "mousemove|click",
-        "borderColor": "#333",
-        "trigger": "item"
-    },
-    "toolbox": {
-        "top": "center",
-        "left": "95%",
-        "show": true,
-        "orient": "vertical",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "\u4e0b\u8f7d\u56fe\u7247"
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true
-            }
-        }
-    }
+    ]
 };
-myChart_75820ec56bfb4111a8a1d12c5982172b.setOption(option_75820ec56bfb4111a8a1d12c5982172b);
+myChart_f11178c2fcf14d368da2298bb11b9325.setOption(option_f11178c2fcf14d368da2298bb11b9325);
 
 </script>
 </body>

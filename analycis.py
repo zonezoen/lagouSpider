@@ -11,9 +11,9 @@ from pymongo import MongoClient
 
 class Analycis:
     def __init__(self):
-        self.client = MongoClient('mongodb://123.207.242.77:37017/')
+        self.client = MongoClient('mongodb://localhost:27017/')
         self.zfdb = self.client.zfdb
-        self.zfdb.authenticate("zf", "123qweasd!")
+        self.zfdb.authenticate("mongodbUser", "yourpassward")
 
     def getCity(self):
         return [
@@ -30,16 +30,18 @@ class Analycis:
             "Python",
             "C",
             "机器学习",
+            "图像识别",
+            "自然语言",
             "区块链",
             "Go",
             "Php",
-            ".NET",
+            # ".NET",
             "Android",
             "iOS",
             "web前端",
             "精准推荐",
-            "Node.js",
-            "Hadoop",
+            # "Node.js",
+            # "Hadoop",
 
         ]
 
@@ -53,82 +55,82 @@ class Analycis:
     # 公司级别排行（A轮、B轮）
     # 公司类型排行
 
-# 获取各语言样本数量
-def getLanguageNum(self):
-    analycisList = []
-    for index, language in enumerate(self.getLanguage()):
-        collection = self.zfdb["z_" + language]
-        totalNum = collection.aggregate([{'$group': {'_id': '', 'total_num': {'$sum': 1}}}])
-        totalNum2 = list(totalNum)[0]["total_num"]
-        analycisList.append(totalNum2)
-    return (self.getLanguage(), analycisList)
+    # 获取各语言样本数量
+    def getLanguageNum(self):
+        analycisList = []
+        for index, language in enumerate(self.getLanguage()):
+            collection = self.zfdb["z_" + language]
+            totalNum = collection.aggregate([{'$group': {'_id': '', 'total_num': {'$sum': 1}}}])
+            totalNum2 = list(totalNum)[0]["total_num"]
+            analycisList.append(totalNum2)
+        return (self.getLanguage(), analycisList)
 
-# 获取各语言的平均工资
-def getLanguageAvgSalary(self):
-    analycisList = []
-    for index, language in enumerate(self.getLanguage()):
-        collection = self.zfdb["z_" + language]
-        totalSalary = collection.aggregate([{'$group': {'_id': '', 'total_salary': {'$sum': '$salaryMid'}}}])
-        totalNum = collection.aggregate([{'$group': {'_id': '', 'total_num': {'$sum': 1}}}])
-        totalNum2 = list(totalNum)[0]["total_num"]
-        totalSalary2 = list(totalSalary)[0]["total_salary"]
-        analycisList.append(round(totalSalary2 / totalNum2, 2))
-    return (self.getLanguage(), analycisList)
+    # 获取各语言的平均工资
+    def getLanguageAvgSalary(self):
+        analycisList = []
+        for index, language in enumerate(self.getLanguage()):
+            collection = self.zfdb["z_" + language]
+            totalSalary = collection.aggregate([{'$group': {'_id': '', 'total_salary': {'$sum': '$salaryMid'}}}])
+            totalNum = collection.aggregate([{'$group': {'_id': '', 'total_num': {'$sum': 1}}}])
+            totalNum2 = list(totalNum)[0]["total_num"]
+            totalSalary2 = list(totalSalary)[0]["total_salary"]
+            analycisList.append(round(totalSalary2 / totalNum2, 2))
+        return (self.getLanguage(), analycisList)
 
-# 获取一门语言的学历要求（用于 pyecharts 的词云）
-def getEducation(self, language):
-    results = self.zfdb["z_" + language].aggregate([{'$group': {'_id': '$education', 'weight': {'$sum': 1}}}])
-    educationList = []
-    weightList = []
-    for result in results:
-        educationList.append(result["_id"])
-        weightList.append(result["weight"])
-    # print(list(result))
-    return (educationList, weightList)
-
-# 获取一门语言的工作年限要求（用于 pyecharts 的词云）
-def getExperience(self, language):
-    results = self.zfdb["z_" + language].aggregate([{'$group': {'_id': '$experience', 'weight': {'$sum': 1}}}])
-    totalAvgPriceDirList = []
-    for result in results:
-        totalAvgPriceDirList.append(
-            {"value": result["weight"], "name": result["_id"] + "  " + str(result["weight"])})
-    return totalAvgPriceDirList
-
-# 获取 welfare 数据，用于构建福利词云
-def getWelfare(self):
-    content = ''
-    queryArgs = {}
-    projectionFields = {'_id': False, 'welfare': True}  # 用字典指定
-    for language in self.getLanguage():
-
-        collection = self.zfdb["z_" + language]
-        searchRes = collection.find(queryArgs, projection=projectionFields).limit(1000)
-        for result in searchRes:
-            print(result["welfare"])
-            content += result["welfare"]
-    return content
-
-# 获取公司级别排行（用于条形图）
-def getAllCompanyLevel(self):
-    levelList = []
-    weightList = []
-    newWeightList = []
-    attrList = ["A轮", "B轮", "C轮", "D轮及以上", "不需要融资", "上市公司"]
-    for language in self.getLanguage():
-        collection = self.zfdb["z_" + language]
-        # searchRes = collection.find(queryArgs, projection=projectionFields).limit(1000)
-        results = collection.aggregate([{'$group': {'_id': '$companyLevel', 'weight': {'$sum': 1}}}])
+    # 获取一门语言的学历要求（用于 pyecharts 的词云）
+    def getEducation(self, language):
+        results = self.zfdb["z_" + language].aggregate([{'$group': {'_id': '$education', 'weight': {'$sum': 1}}}])
+        educationList = []
+        weightList = []
         for result in results:
-            levelList.append(result["_id"])
+            educationList.append(result["_id"])
             weightList.append(result["weight"])
-    for index, attr in enumerate(attrList):
-        newWeight = 0
-        for index2, level in enumerate(levelList):
-            if attr == level:
-                newWeight += weightList[index2]
-        newWeightList.append(newWeight)
-    return (attrList, newWeightList)
+        # print(list(result))
+        return (educationList, weightList)
+
+    # 获取一门语言的工作年限要求（用于 pyecharts 的词云）
+    def getExperience(self, language):
+        results = self.zfdb["z_" + language].aggregate([{'$group': {'_id': '$experience', 'weight': {'$sum': 1}}}])
+        totalAvgPriceDirList = []
+        for result in results:
+            totalAvgPriceDirList.append(
+                {"value": result["weight"], "name": result["_id"] + "  " + str(result["weight"])})
+        return totalAvgPriceDirList
+
+    # 获取 welfare 数据，用于构建福利词云
+    def getWelfare(self):
+        content = ''
+        queryArgs = {}
+        projectionFields = {'_id': False, 'welfare': True}  # 用字典指定
+        for language in self.getLanguage():
+
+            collection = self.zfdb["z_" + language]
+            searchRes = collection.find(queryArgs, projection=projectionFields).limit(1000)
+            for result in searchRes:
+                print(result["welfare"])
+                content += result["welfare"]
+        return content
+
+    # 获取公司级别排行（用于条形图）
+    def getAllCompanyLevel(self):
+        levelList = []
+        weightList = []
+        newWeightList = []
+        attrList = ["A轮", "B轮", "C轮", "D轮及以上", "不需要融资", "上市公司"]
+        for language in self.getLanguage():
+            collection = self.zfdb["z_" + language]
+            # searchRes = collection.find(queryArgs, projection=projectionFields).limit(1000)
+            results = collection.aggregate([{'$group': {'_id': '$companyLevel', 'weight': {'$sum': 1}}}])
+            for result in results:
+                levelList.append(result["_id"])
+                weightList.append(result["weight"])
+        for index, attr in enumerate(attrList):
+            newWeight = 0
+            for index2, level in enumerate(levelList):
+                if attr == level:
+                    newWeight += weightList[index2]
+            newWeightList.append(newWeight)
+        return (attrList, newWeightList)
 
 
 
@@ -236,7 +238,7 @@ for language in analycis.getLanguage():
 for language in analycis.getLanguage():
     data = analycis.getExperience(language)
     print(data)
-    analycis.showTreeMap("                       "+language+"工作年限要求", data)
+    analycis.showTreeMap("                       "+language+"工作学历要求", data)
     os.rename("render.html", "./languageExperience/" + language + "Experience.html")
 
 #  福利词云

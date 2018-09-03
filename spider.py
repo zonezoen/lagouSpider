@@ -8,9 +8,9 @@ from pymongo import MongoClient
 
 class WorkSpider:
     def __init__(self):
-        self.client = MongoClient('mongodb://123.207.242.77:37017/')
+        self.client = MongoClient('mongodb://localhost:27017/')
         self.zfdb = self.client.zfdb
-        self.zfdb.authenticate("zf", "123qweasd!")
+        self.zfdb.authenticate("mongodbUser", "yourpassward")
 
     # 要爬取的城市列表
     def getCity(self):
@@ -28,7 +28,9 @@ class WorkSpider:
             # "Java",
             # "Python",
             # "C",
-            "机器学习",
+            # "机器学习",
+            "图像识别",
+            "自然语言处理",
             # "区块链",
             # "精准推荐",
             # "Node.js",
@@ -92,7 +94,7 @@ class WorkSpider:
         print(" 当前爬取的语言为 => " + language + "  当前爬取的城市为 => " + city)
         print(" 当前爬取的语言为 => " + language + "  当前爬取的城市为 => " + city)
         url = self.getUrl(language, city)
-        browser = webdriver.Chrome()
+        browser = webdriver.Chrome("/Users/zone/Desktop/zone/chromedriver")
         browser.get(url)
         browser.implicitly_wait(10)
         for i in range(30):
