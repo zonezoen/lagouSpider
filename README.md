@@ -1,4 +1,5 @@
 # 拉钩职位爬虫
+## 如果能帮到你，还烦请 start 一下
 ## 概述
 - 前言
 - 统计结果
@@ -266,6 +267,10 @@ def getAllCompanyLevel(self):
 
 
 本篇文章首发于公众号「zone7」，关注公众号获取最新推文，后台回复【深圳求职】获取源码。
+
+![网页源码](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
+
+
 
 
 
