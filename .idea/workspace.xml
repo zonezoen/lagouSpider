@@ -2,43 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e25686a-b185-469e-8a41-8eef6285495b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lagouSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lagouSpider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analycis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analycis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companyLevel.html" beforeDir="false" afterPath="$PROJECT_DIR$/companyLevel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageAvgSalary.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageAvgSalary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/.NETEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/.NETEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/AndroidEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/AndroidEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/CEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/CEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/GoEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/GoEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/HadoopEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/HadoopEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/JavaEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/JavaEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/Node.jsEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/Node.jsEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/PhpEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/PhpEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/PythonEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/PythonEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/iOSEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/iOSEducation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/web前端Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/web前端Education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/区块链Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/区块链Education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/机器学习Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/机器学习Education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageEducation/精准推荐Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageEducation/精准推荐Education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/.NETExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/.NETExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/AndroidExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/AndroidExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/CExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/CExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/GoExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/GoExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/HadoopExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/HadoopExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/JavaExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/JavaExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/Node.jsExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/Node.jsExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/PhpExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/PhpExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/PythonExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/PythonExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/iOSExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/iOSExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/web前端Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/web前端Experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/区块链Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/区块链Experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/机器学习Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/机器学习Experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languageExperience/精准推荐Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/languageExperience/精准推荐Experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loutput.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/loutput.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sampleNum.html" beforeDir="false" afterPath="$PROJECT_DIR$/sampleNum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/.NETEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/.NETEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/AndroidEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/AndroidEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/CEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/CEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/GoEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/GoEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/HadoopEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/HadoopEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/JavaEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/JavaEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/Node.jsEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/Node.jsEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/PhpEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/PhpEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/PythonEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/PythonEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/iOSEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/iOSEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/web前端Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/web前端Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/区块链Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/区块链Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/图像识别Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/图像识别Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/机器学习Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/机器学习Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/精准推荐Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/精准推荐Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/自然语言Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/自然语言Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageEducation/自然语言处理Education.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageEducation/自然语言处理Education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/.NETExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/.NETExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/AndroidExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/AndroidExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/CExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/CExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/GoExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/GoExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/HadoopExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/HadoopExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/JavaExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/JavaExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/Node.jsExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/Node.jsExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/PhpExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/PhpExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/PythonExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/PythonExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/iOSExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/iOSExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/web前端Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/web前端Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/区块链Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/区块链Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/图像识别Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/图像识别Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/机器学习Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/机器学习Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/精准推荐Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/精准推荐Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/自然语言Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/自然语言Experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languageExperience/自然语言处理Experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/languageExperience/自然语言处理Experience.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,12 +58,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="21" />
+          <entry key="py" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="21" />
+          <entry key="Python" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="61" />
               <folding>
                 <element signature="e#7#36#0" expanded="true" />
               </folding>
@@ -98,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analycis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#13#32#0" expanded="true" />
               </folding>
@@ -228,16 +225,6 @@
               <item name="lagouSpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="lagouSpider" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lagouSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagouSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="languageEducation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lagouSpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lagouSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="languageExperience" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -253,6 +240,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/result" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -282,7 +272,7 @@
     <configuration name="自然语言Experience.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/lagouSpider/languageExperience/自然语言Experience.html">
       <method v="2" />
     </configuration>
-    <configuration name="sampleNum.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/lagouSpider/sampleNum.html">
+    <configuration name="sampleNum.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/lagouSpider/result/sampleNum.html">
       <method v="2" />
     </configuration>
     <list>
@@ -317,21 +307,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20979765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20979765" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.619802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28316832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32871288" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="SciView" visible="true" weight="0.32960597" />
@@ -365,7 +356,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Py.csv" />
-    <entry file="file://$PROJECT_DIR$/languageEducation/.NETEducation.html">
+    <entry file="file://$PROJECT_DIR$/result/languageEducation/.NETEducation.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/render.html" />
@@ -423,13 +414,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languageExperience/.NETExperience.html">
+    <entry file="file://$PROJECT_DIR$/result/languageExperience/.NETExperience.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="61" />
           <folding>
             <element signature="e#7#36#0" expanded="true" />
           </folding>
@@ -438,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/analycis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#13#32#0" expanded="true" />
           </folding>
