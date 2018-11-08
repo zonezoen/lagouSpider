@@ -1,6 +1,10 @@
 # 拉钩职位爬虫
 ## **如果我的文章对你有帮助，欢迎 start、follow，这样我会更有动力做原创分享。**
 在配置好 MongoDB 数据库和安装好相关的库包文件后，代码可直接运行。
+# 我的公众号
+![网页源码](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
+
+
 ## 概述
 - 前言
 - 统计结果
@@ -269,7 +273,6 @@ def getAllCompanyLevel(self):
 
 本篇文章首发于公众号「zone7」，关注公众号获取最新推文，后台回复【深圳求职】获取源码。
 
-![网页源码](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
 
 
 
